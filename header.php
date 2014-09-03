@@ -47,6 +47,7 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'my-simone' ); ?></a>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<?php my_simone_social_menu(); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 

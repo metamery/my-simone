@@ -43,6 +43,7 @@ function my_simone_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'my-simone' ),
+		'social' => __( 'Social Menu', 'my-simone'),
 	) );
 
 	// Enable support for Post Formats.
