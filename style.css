@@ -652,6 +652,40 @@ a:active {
 	z-index: 100000; /* Above WP toolbar */
 }
 
+/* Header search */
+
+input[type="search"] {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.search-box-wrapper {
+    z-index: 2;
+    width: 100%;
+}
+
+.search-box {
+    padding: 1em;
+    background: #4d4d4d;
+    background: hsl(0, 0%, 30%);
+}
+
+.search-box .search-field {
+    max-width: 362px;
+    float: right;
+    padding: 1rem 2rem 1rem 4rem;
+    font-size: 20px;
+    font-size: 2rem;
+    background-color: #fff;
+    border: 0;
+}
+
+.error404 .search-submit,
+.search .search-submit,
+.search-box .search-submit { 
+    display: none; 
+}
+
 /*--------------------------------------------------------------
 7.0 Alignments
 --------------------------------------------------------------*/
